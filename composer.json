@@ -1,0 +1,19 @@
+{
+    "name": "ahmed-elsadany/cms-backend-auth",
+    "description": "install admin backend users",
+    "require": {
+        "elsayednofal/imagemanager": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "ahmedelsadany",
+            "email": "eng.ahmedelsadany1@gmail.com"
+        }
+    ],
+    "autoload":{
+      "psr-4": {
+            "MediaSci\\CmsBackendAuth\\": "src/"
+        }
+    },
+    "minimum-stability": "beta"
+}
